@@ -5,8 +5,15 @@ Ce repos a été adapté pour correspondre aux besoins du projet [Memory Safe C]
 Utilisation :
 - Lancer `test.bash <outil>` pour compiler / exécuter tous les programmes.
 - Ce script nécessite d'autres scripts génériques, présents dans le repos ci-dessus.
-- Le détail du paramètre `<outil>` s'y trouve également
-- Lancer `clean.bash` pour nettoyer les fichiers / dossiers générés par `test.bash`
+- Le détail du paramètre `<outil>` s'y trouve également.
+- Lancer `clean.bash` pour nettoyer les fichiers / dossiers générés par `test.bash`.
+
+Modifications :
+- Retiré les dossiers vides.
+- Retiré les programmes demandant un input.
+
+Note :
+- Le dossier `versionIA` contient une copie de chaque programme anonymisé afin de tester la détection d'erreur avec un agent IA.
 
 README originel ci-dessous.
 
