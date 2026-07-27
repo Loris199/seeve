@@ -1,3 +1,17 @@
+# Mise au propre
+
+Ce repos a été adapté pour correspondre aux besoins du projet [Memory Safe C](https://github.com/Loris199/Memory-Safe-C)
+
+Utilisation :
+- Lancer `test.bash <outil>` pour compiler / exécuter tous les programmes.
+- Ce script nécessite d'autres scripts génériques, présents dans le repos ci-dessus.
+- Le détail du paramètre `<outil>` s'y trouve également
+- Lancer `clean.bash` pour nettoyer les fichiers / dossiers générés par `test.bash`
+
+README originel ci-dessous.
+
+---
+
 # SEEWE
 Examples that illustrate the different code vulnerabilities according to CWE.
 
