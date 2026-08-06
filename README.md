@@ -20,9 +20,9 @@ Ce script permet simplement de nettoyer les fichiers et dossiers créés après 
 ## Script `test.bash`
 Ce script permet de parcourir l'entier du repos afin de tester successivement chaque programme à l'aide de l'outil passé en paramètre. Le script fait appel à [testTool.bash](https://github.com/Loris199/Memory-Safe-C/tree/main#dossier-scripts) présenté dans le repos principal, par conséquent les mêmes options sont disponibles.
 
-README originel ci-dessous.
-
 ---
+
+README originel ci-dessous.
 
 # SEEWE
 Examples that illustrate the different code vulnerabilities according to CWE.
