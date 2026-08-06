@@ -1,19 +1,24 @@
 # Memory Safe C
 
-Ce repos a été adapté pour correspondre aux besoins du projet [Memory Safe C](https://github.com/Loris199/Memory-Safe-C)
+Ce repos sert d'annexe à mon Travail de Bachelor (TB) et est une extension au repos principal [Memory Safe C](https://github.com/Loris199/Memory-Safe-C)
 
-Utilisation :
-- Lancer `test.bash <outil>` pour compiler / exécuter tous les programmes.
-- Ce script nécessite d'autres scripts génériques, présents dans le repos ci-dessus.
-- Le détail du paramètre `<outil>` s'y trouve également.
-- Lancer `clean.bash` pour nettoyer les fichiers / dossiers générés par `test.bash`.
+Le contenu de ce repos est le suivant :
 
-Modifications :
+## Dossiers `CWE-xxx`
+Ces dossiers contiennent un ou plusieurs programmes de test avec une erreur du CWE correspondant.
+
+Comparé au repos originel, j'y ai effectué deux modifications :
 - Retiré les dossiers vides.
 - Retiré les programmes demandant un input.
 
-Note :
-- Le dossier `versionIA` contient une copie de chaque programme anonymisé afin de tester la détection d'erreur avec un agent IA.
+## Dossier `versionIA`
+Ce dossier contient une copie de chacun des programmes situés dans les divers dossiers `CWE-xxx` mentionnés ci-dessus. Ces fichiers ont été renommés et modifiés (en retirant les commentaires) afin d'anonymiser l'erreur qu'ils contiennent. Cela a permis de les fournir à une IA afin d'évaluer sa capacité à détecter les erreurs.
+
+## Script `clean.bash`
+Ce script permet simplement de nettoyer les fichiers et dossiers créés après avoir utilisé `test.bash` ci-dessous.
+
+## Script `test.bash`
+Ce script permet de parcourir l'entier du repos afin de tester successivement chaque programme à l'aide de l'outil passé en paramètre. Le script fait appel à [testTool.bash](https://github.com/Loris199/Memory-Safe-C/tree/main#dossier-scripts) présenté dans le repos principal, par conséquent les mêmes options sont disponibles.
 
 README originel ci-dessous.
 
